@@ -6,7 +6,7 @@ app = FastAPI(title="TestGH API")
 
 @app.get("/")
 async def hello_world():
-    return {"message": "Hello from testGH!!"}
+    return {"message": "Hello from testGH!?"}
 
 
 if __name__ == "__main__":
